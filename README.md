@@ -4,16 +4,13 @@
 ## Overview of Project
 ###### Explain the purpose of this analysis
 
-This project is to refactor or an existing codebase so that it is more efficient and is more robust to analyze stocks of any year in a specific data set.
- We have updated the code base to loop over the relavent stock ticker just once to collect stock volume info. It's performance over a year is collected and presented. 
+Here we focused on the ETL process using Python Pandas, SQL, and ERDs. We extracted data from CSVs, tranformed them into dataframes, cleaned the data, transformed the data into more usable collumns. 
 
 ## Results
-###### Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+###### Using images and examples of your code.
 
-As we can observe, overall the performance of stocks in 2018 was far worse than in 2017. We can see this in the images provided below.
+An ERD was created to show a visualization of the tables and the relationships between them. These tables were created on PosgreSQL, and the data from CSVs were succesfully imported as shown below.
 
-![This is an image](https://imgur.com/jUumeOl.png)
-![This is an image](https://imgur.com/JvhHZAh.png)
+![This is an image](https://i.imgur.com/rEk5Cr3.png)
 
-Furthermore there is no correlation with volume to expected return. 
-Two stocks consistently performed well over the two years, which were ENPH and RUN. Due to our refactored code we can also see that the execution time improved by an order of 10 or more.
+Queries were perfromed to get select data regarding live campaigns and informing the backers and contacts of the campaigns about their financial status. 
